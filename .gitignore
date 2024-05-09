@@ -1,0 +1,42 @@
+responses/*
+./target/**/*
+  
+
+# Python files
+*.pyc
+__pycache__/
+
+# Go files
+**/*.go
+**/vendor/**/*.go
+
+# Rust files
+target/
+ Cargo.lock
+Cargo.toml
+
+# Compiled binaries
+bin/
+dist/
+build/
+
+# IDE metadata and cache files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+.swo
+*.log
+*.tmp
+
+# Node.js files (if you're using a build tool like Webpack)
+node_modules/
+
+# Other files to ignore
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+.env
+.vscode

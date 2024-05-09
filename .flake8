@@ -1,0 +1,5 @@
+[flake8]
+ignore = F401, F841, E203, E501, W291, W292, W293, W503
+max-line-length = 120
+max-complexity = 10
+exclude = target/*, helpers/*, responses/*, client/*, bin/*, .git/*, tests/fixtures/*

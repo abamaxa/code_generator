@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "testgen"
+version = "0.1.0"
+description = ""
+authors = ["Chris Morgan <cmorgan@abamaxa.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.1"
+openai = "^1.0.0"
+httpx = "^0.23.3"
+pytest = "^7.2.2"
+pytest-asyncio = "^0.21.0"
+aiosqlite = "^0.18.0"
+
+[tool.poetry.dev-dependencies]
+pytest-asyncio = "^0.21.0"
+factory-boy = "^3.2.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
