@@ -7,7 +7,6 @@ responses/*
 __pycache__/
 
 # Go files
-**/*.go
 **/vendor/**/*.go
 
 # Rust files
